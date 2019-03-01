@@ -24,17 +24,17 @@
 
 filebench的安装使用本来不应该是太大问题， 我之前在我的阿里云服务器上尝试过安装使用了， 一切正常， 现在的问题是我在我自己电脑的虚拟机上安装的时候， 安装成功了， 但是运行不起来， 可以正常创建文件， 分配线程， 但是之后就会报错， 信息
 
-Unexpected Process termination code 3, Errno 0 around line 52
+Unexpected Process termination code 3, Errno 0 around line 77
 
-52行是 run 60
+77行是 run 60
 
 意思是开始运行。 运行60秒。我觉得这里怎么也不应该有问题
 
 我google了最这个信息， 只找到filebench项目一个2017年提交的bug， 但是没有解决方法。
 
-现在卡在这里。 我打算至少重新安装一遍 filebench， 但是装的时候不知道装去哪里了， 现在apt remove 不行。
+现在卡在这里。 我打算至少重新安装一遍 filebench， 但是装的时候不知道装去哪里了， 现在apt remove 不行
 
-现在打算干脆重新安装以下虚拟机。
+整个重新安装虚拟机但是没用
 
 
 
