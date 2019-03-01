@@ -46,7 +46,7 @@ Unexpected Process termination code 3, Errno 0 around line 77
 
 1. 安装并分区宿主机， 设置分区 文件系统
 
-2. 在宿主机对应分区上创建 .img 文件， 文件格式是qcow2， disk ache模式选择 write-through
+2. 在宿主机对应分区上创建 .img 文件， 文件格式是qcow2， disk cache模式选择 write-through
 
    ​	这里问题是 文章里没有明确指定qcow2， 他在 related work一节中谈到不同文件格式的性能不同， 但是最后没有明确说明自己使用的是什么
 
