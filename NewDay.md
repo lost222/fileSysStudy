@@ -8,6 +8,20 @@ idea： 虚拟机对**多文件**的读写， 表现为宿主机上多个计算�
 
 
 
+## 新的思路
+我只是要看见虚拟机的scability 有问题， 我真的需要使用fxmark吗？
+如果我使用fxmark：
+* 想办法跳过它给每一个核心绑定进程的过程
+
+如果不使用fxmark：
+* 我可以使用filebench， 
+* directio和bufferedio的差别在哪里？
+* 怎么使用filebench搞出 share file 和 private file 的写区别？
+
+
+
+
+
 论文相关的一些概念：
 
 - Sharing Level : 单文件读写或者多文件读写
